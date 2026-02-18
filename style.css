@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* LOGIN PAGE */
+.login-body {
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgb(149, 230, 91);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    font-size: 12px;
+    color: gray;
+}
+
+.radio-group {
+    margin: 15px 0;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.reset {
+    background: #9e9e9e;
+}
+
+/* DASHBOARD */
+.dashboard-body {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background: #2f3e52;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.sidebar a:hover {
+    background: #44566c;
+    padding-left: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background: #f4f6f8;
+}

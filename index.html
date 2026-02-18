@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICFAI Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+    <div class="login-card">
+       
+        <h1> ICFAI Foundation For HIgher Education</h1>
+        <h2 class="subtitle">(Deemed-to-be University)</h2>
+
+        <div class="radio-group">
+            <label><input type="radio" name="role" checked> Students</label>
+            <label><input type="radio" name="role"> Parents</label>
+        </div>
+
+        <input type="text" id="loginId" placeholder="LOGIN ID">
+        <input type="password" id="password" placeholder="Password"><br><br>
+
+        <div class="btn-group">
+            <button onclick="login()">Submit</button>
+            <button class="reset" type="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
